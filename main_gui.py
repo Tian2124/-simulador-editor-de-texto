@@ -5,7 +5,7 @@ from editor import TextEditor
 class TextEditorGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Simulador de Editor de Texto")
+        self.root.title("Simulador de Editor con Historial de Acciones")
         self.root.geometry("600x500")
         
         # Instantiate the TextEditor
@@ -23,7 +23,7 @@ class TextEditorGUI:
         self.text_display.pack(fill="both", expand=True)
         
         # Frame for write controls
-        write_frame = tk.LabelFrame(self.root, text="Escribir Texto", padx=10, pady=10)
+        write_frame = tk.LabelFrame(self.root, text="Escribia su Texto", padx=10, pady=10)
         write_frame.pack(fill="x", padx=10, pady=5)
         
         tk.Label(write_frame, text="Texto:").grid(row=0, column=0, sticky="w")
