@@ -1,4 +1,4 @@
-# Simulador de Editor de Texto con Interfaz Gráfica
+# Simulador de Editor con Historial de Acciones 
 
 Este proyecto implementa un simulador de editor de texto con funcionalidad de deshacer/rehacer (undo/redo) utilizando una estructura Stack propia y una interfaz gráfica creada con tkinter.
 
